@@ -1,0 +1,5 @@
+mountainos-liteair/branding/ etc/calamares/
+mountainos-liteair/calamares-logs-helper usr/bin/
+mountainos-liteair/mountainos-liteair-calamares.desktop usr/share/applications/
+mountainos-liteair/modules/ etc/calamares/
+mountainos-liteair/settings.conf etc/calamares/

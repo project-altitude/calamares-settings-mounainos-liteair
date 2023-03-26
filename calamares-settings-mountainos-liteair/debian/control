@@ -1,0 +1,36 @@
+Source: calamares-settings-mountainos-liteair
+Section: devel
+Priority: optional
+Maintainer: MountainOS <mountainoslinux@gmail.com>
+Build-Depends: debhelper-compat (= 13), intltool, qttools5-dev-tools
+Standards-Version: 4.6.2
+Homepage: mountainlinuxos.wordpress.com
+Rules-Requires-Root: no
+
+Package: calamares-settings-mountainos-liteair
+Architecture: all
+Depends: calamares-settings-mos-common (>= ${binary:Version}),
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntustudio, calamares-settings-lubuntu
+Description: MountainOS LiteAir Calamares Settings and Branding
+ This package contains the Calamares settings and branding for MountainOS LiteAir.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper MountainOS LiteAir desktop is installed with the
+ XFCE desktop environment.
+
+Package: calamares-settings-mos-common
+Architecture: any
+Depends: calamares (>= 3.2.14~),
+         cryptsetup,
+         keyutils,
+         python3,
+         python3-distro,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         squashfs-tools,
+         ${misc:Depends}
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all versions.
+ There is also a automirror Python script to set sources based on
+ geolocation.
+

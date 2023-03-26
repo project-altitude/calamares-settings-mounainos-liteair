@@ -1,0 +1,29 @@
+---
+componentName: mountainos-liteair
+
+windowExpanding:    normal
+
+strings:
+    productName:         MountainOS LiteAir
+    shortProductName:    MountainOS
+    version:             1.0 acherkogel
+    shortVersion:        1.0
+    versionedName:       MountainOS LiteAir 1.0 acherkogel
+    shortVersionedName:  MountainOS LiteAir 1.0
+    bootloaderEntryName: MountainOS LiteAir
+    productUrl:          mountainlinuxos.wordpress.com
+    supportUrl:          mountainlinuxos.wordpress.com
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+slideshowAPI:            1
+
+style:
+   SidebarBackground:    "#808080"
+   SidebarText:          "#FFFFFF"
+   SidebarTextSelect:    "#0068C8"

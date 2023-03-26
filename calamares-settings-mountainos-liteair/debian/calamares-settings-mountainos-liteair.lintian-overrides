@@ -1,0 +1,8 @@
+# The .desktop file uses pkexec to run the installer. pkexec is included in
+# the system.
+calamares-settings-mountainos-liteair: desktop-command-not-in-package pkexec [usr/share/applications/mountainos-liteair-calamares.desktop]
+# there will be no manpage in the foreseeable future
+calamares-settings-mountainos-liteair: no-manual-page [usr/bin/calamares-logs-helper]
+# We're just extracting a log file and preserving it for the user to look at
+# after the installation, this is normal.
+calamares-settings-mountainos-liteair: uses-dpkg-database-directly [usr/bin/calamares-logs-helper]
